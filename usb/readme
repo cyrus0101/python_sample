@@ -1,0 +1,19 @@
+how to deal No backend available?
+
+install libusb1.0:
+https://libusb.info/
+
+you can find libusb-1.0.dll in file path ....../MS64/dll
+copy it to C:\Windows\System32
+
+copy libusb-1.0.lib to D:\python39\Lib  (my python lib file path)
+
+and,congratulation! you solve it
+
+how to send data?
+
+https://www.cnblogs.com/mmhx/p/3887022.html
+
+how to send HID report?
+
+https://stackoverflow.com/questions/37943825/send-hid-report-with-pyusb
